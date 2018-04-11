@@ -84,17 +84,3 @@ int main(int argc, char *argv[])
     }
     return 1;
 }
-/*
-ifstream f("matrix.txt");
-f >> m >> n;
-
-if ((m != 4) || (n != 3))
-  {
-  cout << "Matrix not 4 by 3!n";
-  return 1;
-  }
-
-for (int i = 0; i < m; i++)
-for (int j = 0; j < m; j++)
-  f >> A[i][j];
-*/
